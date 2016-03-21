@@ -1,0 +1,17 @@
+#!/bin/sh
+while true; do
+  digitalWrite --value 1 --pin P8_7
+  digitalWrite --value 1 --pin P8_8
+  digitalWrite --value 1 --pin P9_27
+
+  sleep 1
+  digitalWrite --value 0 --pin P8_7
+  digitalWrite --value 0 --pin P8_8
+  digitalWrite --value 0 --pin P9_27
+
+
+
+  sleep 1
+done
+
+

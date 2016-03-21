@@ -1,0 +1,12 @@
+#!/bin/sh
+while true; do
+  digitalWrite --value 1 --pin $*
+
+  sleep 1
+
+  digitalWrite --value 0 --pin $*
+
+  sleep 1
+done
+
+

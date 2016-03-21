@@ -1,0 +1,56 @@
+make: Warning: File `Makefile' has modification time 4166262 s in the future
+dive.c:82:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loRightRowSelectGPIO'
+dive.c:86:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loRightClockGPIO'
+dive.c:87:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loRightDataGPIO'
+dive.c:100:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loLeftRowSelectGPIO'
+dive.c:104:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loLeftClockGPIO'
+dive.c:105:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loLeftDataGPIO'
+dive.c:118:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiRightRowSelectGPIO'
+dive.c:122:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiRightClockGPIO'
+dive.c:123:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiRightDataGPIO'
+dive.c:136:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiLeftRowSelectGPIO'
+dive.c:140:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiLeftClockGPIO'
+dive.c:141:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiLeftDataGPIO'
+dive.c:145:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loLatchGPIO'
+dive.c:146:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hiLatchGPIO'
+dive.c:149:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'hallEffectGPIO'
+dive.c:177:27: error: expected ')' before '*' token
+dive.c: In function 'lShiftOut':
+dive.c:201:16: error: 'loLeftDataGPIO' undeclared (first use in this function)
+dive.c:201:16: note: each undeclared identifier is reported only once for each function it appears in
+dive.c:201:32: error: 'loLeftClockGPIO' undeclared (first use in this function)
+dive.c:203:16: error: 'hiLeftDataGPIO' undeclared (first use in this function)
+dive.c:203:32: error: 'hiLeftClockGPIO' undeclared (first use in this function)
+dive.c: In function 'rShiftOut':
+dive.c:209:16: error: 'loRightDataGPIO' undeclared (first use in this function)
+dive.c:209:33: error: 'loRightClockGPIO' undeclared (first use in this function)
+dive.c:211:16: error: 'hiRightDataGPIO' undeclared (first use in this function)
+dive.c:211:33: error: 'hiRightClockGPIO' undeclared (first use in this function)
+dive.c: In function 'Latch':
+dive.c:217:25: error: 'loLatchGPIO' undeclared (first use in this function)
+dive.c:219:25: error: 'hiLatchGPIO' undeclared (first use in this function)
+dive.c: In function 'RefreshAll':
+dive.c:345:27: error: 'loRightRowSelectGPIO' undeclared (first use in this function)
+dive.c:346:27: error: 'loLeftRowSelectGPIO' undeclared (first use in this function)
+dive.c:351:27: error: 'hiRightRowSelectGPIO' undeclared (first use in this function)
+dive.c:352:27: error: 'hiLeftRowSelectGPIO' undeclared (first use in this function)
+dive.c: In function 'PeggySetup':
+dive.c:420:44: error: 'loLatchGPIO' undeclared (first use in this function)
+dive.c:421:44: error: 'hiLatchGPIO' undeclared (first use in this function)
+dive.c:423:50: error: 'loRightClockGPIO' undeclared (first use in this function)
+dive.c:424:50: error: 'loRightDataGPIO' undeclared (first use in this function)
+dive.c:426:49: error: 'loLeftClockGPIO' undeclared (first use in this function)
+dive.c:427:49: error: 'loLeftDataGPIO' undeclared (first use in this function)
+dive.c:430:50: error: 'hiRightClockGPIO' undeclared (first use in this function)
+dive.c:431:50: error: 'hiRightDataGPIO' undeclared (first use in this function)
+dive.c:433:49: error: 'hiLeftClockGPIO' undeclared (first use in this function)
+dive.c:434:49: error: 'hiLeftDataGPIO' undeclared (first use in this function)
+dive.c:443:58: error: 'hiRightRowSelectGPIO' undeclared (first use in this function)
+dive.c:444:58: error: 'hiLeftRowSelectGPIO' undeclared (first use in this function)
+dive.c:445:58: error: 'loRightRowSelectGPIO' undeclared (first use in this function)
+dive.c:446:58: error: 'loLeftRowSelectGPIO' undeclared (first use in this function)
+dive.c: In function 'CheckHallState':
+dive.c:656:31: error: 'hallEffectGPIO' undeclared (first use in this function)
+dive.c: In function 'setup':
+dive.c:823:44: error: 'hallEffectGPIO' undeclared (first use in this function)
+make: *** [dive] Error 1

@@ -1,0 +1,15 @@
+#!/bin/sh
+while true; do
+
+  digitalWrite --value 1 --pin P9_42  # latch pins
+  digitalWrite --value 1 --pin P9_27  # latch pins
+
+  sleep 1
+
+  digitalWrite --value 0 --pin P9_42  # latch pins
+  digitalWrite --value 0 --pin P9_27  # latch pins
+
+  sleep 1
+done
+
+

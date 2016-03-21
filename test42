@@ -1,0 +1,95 @@
+#!/bin/sh
+while true; do
+  digitalWrite --value 1 --pin P8_7 # Data Left
+  digitalWrite --value 1 --pin P8_8 # Clock Left
+
+  digitalWrite --value 1 --pin P8_9
+  digitalWrite --value 1 --pin P8_10
+  digitalWrite --value 1 --pin P8_11
+  digitalWrite --value 1 --pin P8_12
+  digitalWrite --value 1 --pin P8_13
+  digitalWrite --value 1 --pin P8_14
+  digitalWrite --value 1 --pin P8_15
+  digitalWrite --value 1 --pin P8_16
+  digitalWrite --value 1 --pin P8_17
+  digitalWrite --value 1 --pin P8_18
+  digitalWrite --value 1 --pin P8_19
+  digitalWrite --value 1 --pin P8_20
+  digitalWrite --value 1 --pin P8_21
+  digitalWrite --value 1 --pin P8_22
+  digitalWrite --value 1 --pin P8_23
+  digitalWrite --value 1 --pin P8_24
+  digitalWrite --value 1 --pin P8_25 # Clock
+  digitalWrite --value 1 --pin P8_26 # Data
+  digitalWrite --value 1 --pin P8_27
+  digitalWrite --value 1 --pin P8_28
+  digitalWrite --value 1 --pin P8_29
+  digitalWrite --value 1 --pin P8_30
+  digitalWrite --value 1 --pin P8_31
+  digitalWrite --value 1 --pin P8_32
+  digitalWrite --value 1 --pin P8_33
+  digitalWrite --value 1 --pin P8_34
+  digitalWrite --value 1 --pin P8_35
+  digitalWrite --value 1 --pin P8_36
+  digitalWrite --value 1 --pin P8_37
+  digitalWrite --value 1 --pin P8_38
+  digitalWrite --value 1 --pin P8_39
+  digitalWrite --value 1 --pin P8_41
+  digitalWrite --value 1 --pin P8_42
+  digitalWrite --value 1 --pin P8_43
+  digitalWrite --value 1 --pin P8_44
+  digitalWrite --value 1 --pin P8_45
+  digitalWrite --value 1 --pin P8_46
+
+  digitalWrite --value 1 --pin P9_42  # latch pins
+  digitalWrite --value 1 --pin P9_27  # latch pins
+
+  sleep 1
+
+  digitalWrite --value 0 --pin P8_7
+  digitalWrite --value 0 --pin P8_8
+  digitalWrite --value 0 --pin P8_9
+  digitalWrite --value 0 --pin P8_10
+  digitalWrite --value 0 --pin P8_11
+  digitalWrite --value 0 --pin P8_12
+  digitalWrite --value 0 --pin P8_13
+  digitalWrite --value 0 --pin P8_14
+  digitalWrite --value 0 --pin P8_15
+  digitalWrite --value 0 --pin P8_16
+  digitalWrite --value 0 --pin P8_17
+  digitalWrite --value 0 --pin P8_18
+  digitalWrite --value 0 --pin P8_19
+  digitalWrite --value 0 --pin P8_20
+  digitalWrite --value 0 --pin P8_21
+  digitalWrite --value 0 --pin P8_22
+  digitalWrite --value 0 --pin P8_23
+  digitalWrite --value 0 --pin P8_24
+  digitalWrite --value 0 --pin P8_25
+  digitalWrite --value 0 --pin P8_26
+  digitalWrite --value 0 --pin P8_27
+  digitalWrite --value 0 --pin P8_28
+  digitalWrite --value 0 --pin P8_29
+  digitalWrite --value 0 --pin P8_30
+  digitalWrite --value 0 --pin P8_31
+  digitalWrite --value 0 --pin P8_32
+  digitalWrite --value 0 --pin P8_33
+  digitalWrite --value 0 --pin P8_34
+  digitalWrite --value 0 --pin P8_35
+  digitalWrite --value 0 --pin P8_36
+  digitalWrite --value 0 --pin P8_37
+  digitalWrite --value 0 --pin P8_38
+  digitalWrite --value 0 --pin P8_39
+  digitalWrite --value 0 --pin P8_41
+  digitalWrite --value 0 --pin P8_42
+  digitalWrite --value 0 --pin P8_43
+  digitalWrite --value 0 --pin P8_44
+  digitalWrite --value 0 --pin P8_45
+  digitalWrite --value 0 --pin P8_46
+
+  digitalWrite --value 0 --pin P9_42  # latch pins
+  digitalWrite --value 0 --pin P9_27  # latch pins
+
+  #sleep 1
+done
+
+
